@@ -21,7 +21,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## To Run
-To run seed the SQL DB with npm prisma db seed then check seed.ts for the login credemtials
+To run, seed the SQL DB with "npm prisma db seed" then check seed.ts for the login credentials
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
