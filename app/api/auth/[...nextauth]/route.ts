@@ -42,12 +42,12 @@ providers: [
         return null
       } 
 
-    //   const ispassword = await compare(credentials.password, user.password)
+      const ispassword = await compare(credentials.password, user.password)
       
-    //   if (!ispassword) {
-    //     // Any object returned will be saved in `user` property of the JWT
-    //     return null
-    //   } 
+      if (!ispassword) {
+        // Any object returned will be saved in `user` property of the JWT
+        return null
+      } 
 
       return{
         id: user.id + '',
